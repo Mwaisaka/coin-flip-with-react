@@ -56,7 +56,7 @@ class FlipCoin extends Component {
                 {/* If current face exist then show current face */}
                 {currFace && <Coin info={currFace} />}
                  {/* Button to flip the coin  */} 
-                 <button onClick={this.handleClick}>Flip</button>
+                 <button onClick={this.handleClick}>Flip Me!</button>
                  <p>
                     Out of {totalFlips} flips, there have been {heads} heads 
                     and {totalFlips - heads} tails 
